@@ -20,6 +20,8 @@ public class Main
 		// TODO Auto-generated method stub
 		System.out.println("your mum");
 		System.out.println(com.DynaLogic.sandbox.API.Test());
+		System.out.println(com.DynaLogic.sandbox.util.print());
+		
 	}
 
 }
