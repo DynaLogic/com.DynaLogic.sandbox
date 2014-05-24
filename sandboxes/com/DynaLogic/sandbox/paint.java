@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import java.util.Date;
 
 public class paint {
-	public void paint(Graphics g)
+	public paint(Graphics g)
 	{
 		Date currentDate = new Date();
 		g.drawString("This is a test", 200, 70);

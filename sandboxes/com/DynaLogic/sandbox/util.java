@@ -17,7 +17,7 @@ public class util
 	
 	public static boolean paintr()
 	{
-		paint()
+		//paint()
 		return true;
 	}
 
