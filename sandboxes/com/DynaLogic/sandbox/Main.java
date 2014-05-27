@@ -21,6 +21,7 @@ public class Main
 		System.out.println("your mum");
 		System.out.println(com.DynaLogic.sandbox.API.Test());
 		System.out.println(com.DynaLogic.sandbox.util.print());
+		System.out.println(com.DynaLogic.sandbox.util.lel(com.DynaLogic.sandbox.util.time()));
 		
 	}
 
