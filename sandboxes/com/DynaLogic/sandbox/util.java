@@ -7,7 +7,7 @@ import java.applet.*;
 @SuppressWarnings("unused")
 public class util
 {
-
+	String inone;
 	static Date currentDate = new Date();
 	public static String print()
 	{
@@ -19,6 +19,19 @@ public class util
 	{
 		//paint()
 		return true;
+	}
+	
+	public static String lel(String inone) 
+	{
+		System.out.print(inone);
+		return inone;
+		
+	}
+	
+	public static String time()
+	{
+		Date currentDate = new Date();
+		return currentDate.toString();
 	}
 
 }
