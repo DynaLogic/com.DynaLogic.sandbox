@@ -8,7 +8,7 @@ public class API
 	
 	public static boolean Test()
 	{
-		if (var1 == var2)
+		if (true)
 		{
 			System.out.println("true");
 			return true;
