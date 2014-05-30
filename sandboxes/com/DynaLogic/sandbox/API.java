@@ -8,16 +8,8 @@ public class API
 	
 	public static boolean Test()
 	{
-		if (true)
-		{
-			System.out.println("true");
-			return true;
-		}
-		else
-		{
-			System.out.println("false");
-			return false;
-		}
+		System.out.println("true");
+		return true;
 		
 		
 	}
