@@ -1,22 +1,41 @@
 package site;
 
-import java.applet.Applet;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
 
-public class Display extends Applet{
+public class Display extends Applet implements ActionListener{
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	Label textOne = new Label("THis is a thing indeed");
+	Label outputField = new Label("Output goes here");
+	Button buttonOne = new Button("Button Text");
+	TextField entryOne = new TextField("TYpe shit here");
+	
+	
+	
+	
 
-	public void paint(Graphics g) {
+	public void init() {
+		setForeground(Color.DARK_GRAY);
+		setBackground(Color.orange);
+		add(textOne);
+		add(entryOne);
+		add(buttonOne);
+		buttonOne.addActionListener(this);
+		add(outputField);
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String userTyped = entryOne.getText();
+		outputField.setText(userTyped);
 		// TODO Auto-generated method stub
-		g.drawString("THIS IS THE TEXT", 200, 70);
-		g.drawString("This is placed at 0" ,  0,  0);
-		setBackground(Color.gray);
-
+		
 	}
 
 }
