@@ -1,10 +1,10 @@
-package com.DynaLogic.sandbox;
+package site;
 
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Main extends Applet implements ActionListener {
+public class CaculatorGUI extends Applet implements ActionListener {
 	private static final long serialVersionUID = 1L;
 	
 	static String calcType;
@@ -21,10 +21,6 @@ public class Main extends Applet implements ActionListener {
 	Button addition = new Button("+");
 	Button subtract = new Button("-");
 	Button equals = new Button("=");
-	
-	
-	
-	
 
 	public void init() {
 		setForeground(Color.DARK_GRAY);
